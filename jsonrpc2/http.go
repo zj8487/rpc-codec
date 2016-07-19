@@ -10,7 +10,7 @@ import (
 	"net/rpc"
 )
 
-const contentType = "application/json"
+const contentType = "application/json-rpc"
 
 type httpServerConn struct {
 	req     io.Reader
